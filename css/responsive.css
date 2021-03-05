@@ -1,0 +1,196 @@
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+  
+  .headerarea .mainmenu .navbar,
+  .headerarea .mainmenu .navbar .navbar-brand,
+  .site-main .subscribe-area .subscribe .sub-title,
+  .site-main .subscribe-area .subscribe .sub-title p,
+  h4,
+  .site-main .services-area,
+  .site-main .subscribe-area .subscribe {
+    padding: 2%;
+    margin: 0%;
+  }
+   .headerarea .mainmenu .navbar .navbar-brand {
+    padding: 0 2rem 0 2rem;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+
+  .site-main .subscribe-area .subscribe form .sub-mail input {
+    width: 15rem !important;
+  }
+
+  .site-main > .services-area .services {
+    width: 13rem;
+  }
+  .footer .copyrights h5 {
+    font-size: 12px;
+  }
+  .site-main .site-banner .site-title h3{
+    padding: 100px; }
+  
+}
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 792px) {
+  /* html{
+    font-size: 75%;
+  } */
+  /* header res */
+  .headerarea .mainmenu .navbar .navbar-brand {
+    padding: 0 2rem 0 2rem;
+  }
+  .headerarea .mainmenu .nav-item .nav-link{
+    /* padding-bottom: 0.2rem;
+    padding: 0; */
+  }
+  .headerarea .navbar .logo {
+    font-size: 1rem;
+  }
+  .headerarea .navbar .logo strong {
+    font-size: 2rem;
+  }
+ 
+  /* banner */
+  
+ /* .site-banner .banner-img{
+   position: absolute;
+   z-index: 4; } */
+  /* sitemain re */
+  .site-main .site-banner .site-title h3 {
+    padding-top: 12%;
+  }
+  .site-main .site-banner .banner-img > img {
+    padding-top: 0rem;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 3rem;
+  }
+  .site-main .about-area .about-title h2 > span {
+    font-size: 1.85rem;
+    letter-spacing: 10px;
+  }
+  .site-banner .banner-img .text-effect {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+  .site-main .site-banner .site-title h4 {
+    font-size: 0.95rem;
+  }
+  .site-main > .services-area .services {
+    padding: 2rem 0;
+    width: auto;
+    margin: 1rem 0;
+    /* margin-left: -25px; */
+  }
+  .site-banner .banner-img .text-effect p {
+    margin: 100px 8px;
+    font-size: 3rem;
+  }
+  .site-main .brand-area .experience-area .years-area {
+    padding-left: 1%;
+    width: 49%;
+  }
+
+  .site-main .brand-area .experience-area .bg-panel {
+    margin-left: 30%;
+    width: 80%;
+  }
+
+  .site-main .brand-area .experience-area .call-area {
+    padding-left: 3%;
+  }
+
+  .site-main .project-area .button-group button {
+    font: normal 500 18px/40px;
+  }
+
+  .site-main .about-area .about-title p {
+    padding: 0%;
+  }
+  .site-main .project-area .project-title .title-h1 {
+    color: var(--title-color);
+    font-size: 1.85rem;
+  }
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 20rem;
+    margin: 5%;
+  }
+  .site-main .project-area .button-group button + button {
+    padding-left: 0;
+  }
+  /* footer */
+  .footer .social a {
+    font-size: 25px;
+  }
+  footer .footer {
+    padding: 3rem;
+  }
+  .footer .copyrights h5 {
+    font-size: 12px !important;
+  }
+  .footer .site-logo {
+    font-size: 1.5rem;
+    padding: 2px;
+  }
+  .footer .site-logo strong {
+    font-size: 2.5rem;
+  }
+  .footer .social a {
+    font-size: 25px;
+  }
+  /* footer resp */
+  footer .footer h5 {
+    font-size: 0.7rem;
+  }
+  .navbar .navbar-toggler {
+    padding: 0rem 0rem;
+  }
+  .services-area .service-list {
+    width: 100%;
+  }
+}
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+  
+  .headerarea .mainmenu .navbar {
+    padding: 1rem 1rem 0rem;
+  }
+
+  .container {
+    max-width: 90%;
+    /* padding-left: 0px; */
+  }
+
+  .site-main .brand-area,
+  .site-main .services-area .services-title,
+  .site-main .about-area {
+    padding: 3% 4%;
+  }
+  footer .copyrights h5 {
+    font-size: 0.9rem !important;
+  }
+
+  /* .site-main .site-banner .banner-img > img {
+		padding-top: 5rem;
+	} */
+  /* .svg {
+		margin-top: -190px;
+	}
+	.site-banner .banner-img .text-effect p {
+		font-size: 90px;
+	}
+
+	.site-main .site-banner .site-title h3 {
+		padding-top: 15%;
+	}
+	.headerarea .mainmenu .nav-item .nav-link {
+		padding: 1.3rem;
+	}
+	.headerarea .mainmenu .navbar .navbar-brand {
+		padding: 0 2rem 0 2rem;
+	} */
+}

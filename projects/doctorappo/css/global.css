@@ -1,0 +1,74 @@
+.subtitle {
+  color: #3e3939;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 15px auto 0;
+  text-align: center;
+}
+
+.section-title-text {
+  /* font-size: 2rem; */
+  color: var(--custom-primary-color);
+  font-family: var(--custom-font-family);
+}
+.custom-btn {
+  color: var(--custom-font-color);
+  background-color: var(--custom-primary-color);
+}
+.custom-btn:focus {
+  box-shadow: none;
+}
+.custom-btn:hover {
+  color: var(--custom-primary-color);
+  background-color: var(--custom-font-color);
+  transition: all 0.2ms;
+}
+
+/* for text color custom class */
+.text-cus-primary {
+  color: var(--custom-primary-color);
+  text-transform: capitalize;
+}
+.text-cus-secondary {
+  color: var(--custom-font-color);
+}
+.list-group-item:hover {
+  color: none;
+}
+.list-group-item {
+  background-color: transparent;
+  color: var(--custom-secondary-font-color);
+}
+.admin-Side-List a:hover {
+  color: var(--custom-secondary-font-color);
+}
+.list-group-item.active {
+  background-color: var(--custom-primary-color);
+  color: white;
+}
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.iconbackground i {
+  font-size: 100px;
+  float: right;
+  color: lightcoral;
+}
+
+.iconbackground {
+  position: absolute;
+  left: 200px;
+  top: 41px;
+  opacity: 0.4;
+}
+.bg-New {
+  background-color: var(--custom-primary-color);
+}
+
+.mainColor {
+  color: var(--custom-main-color);
+}
+.mainColor:hover {
+  color: var(--custom-main-color);
+}

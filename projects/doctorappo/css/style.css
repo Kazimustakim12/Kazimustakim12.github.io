@@ -1,0 +1,290 @@
+@import url("./variable.css");
+@import url("./global.css");
+@import url("./slider.css");
+@import url("./svg.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*nav css*/
+main .navbar {
+  background: var(--custom-primary-color);
+}
+
+.navbar-brand,
+.nav_section .navbar .nav_list .nav-link {
+  color: var(--custom-font-color);
+}
+
+.navbar .dropdown_list .dropdown-item {
+  color: var(--custom-primary-color);
+}
+.navbar .dropdown_list .dropdown-item:hover {
+  background: var(--custom-font-color);
+}
+
+nav .login_form .login_button {
+  color: var(--custom-font-color);
+}
+nav .login_form .login_button:hover {
+  background: var(--custom-secondary-color);
+}
+
+.form-inline .custom-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.form-inline .custom-btn:hover {
+  background-color: var(--custom-font-color);
+  color: var(--custom-primary-color);
+}
+/* end of navbar css */
+
+/*banner css*/
+/* .search_input .btn {
+  background: var(--custom-primary-color);
+} */
+
+/* .search_input .btn:hover {
+  background: var(--custom-secondary-color);
+  color: var(--custom-primary-color);
+}
+.search_input .btn i{
+  color: clip
+} */
+.hero_tag h1 {
+  font-family: var(--custom-font-family);
+  font-size: 1.85rem;
+}
+.search-img {
+  background: #f9f9f9 url("../asset/drimage/ownback.png") no-repeat bottom
+    center;
+  background-size: auto;
+  min-height: 600px;
+  background-size: 100% auto;
+  position: relative;
+  background-blend-mode: Darken;
+  padding: 50px 0;
+}
+
+.banner_wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.search_input .location_area {
+  width: 25%;
+}
+.search_input .srch_input {
+  height: 47px;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid gray;
+  box-shadow: inset 1px 1px 0px rgba(0, 0, 0, 0.075);
+}
+.search_input .docsrch_area {
+  width: 60%;
+  /* margin-left: 10px; */
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.search_input .form_srch {
+  display: flex;
+}
+
+.search_input .text-form {
+  display: block;
+  margin-top: 0.25rem;
+  color: gray;
+}
+
+/* start looking section*/
+.doctor_type .contain_img {
+  /* background-image: url("./asset/heroimg/1.jpg"); */
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .doctor_type .contain_detail {
+  height: 100%;
+  background: rgb(0, 0, 0, 0.45);
+} */
+.doctor_type .contain_detail h2 {
+  color: var(--custom-font-color);
+}
+
+.card.type0fField {
+  background: transparent;
+  border: none;
+  /* width: 12rem; */
+}
+
+.drtype_img img {
+  width: 350px;
+  height: 270px;
+}
+.drtype_img .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.drtype_img .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.drtype_img .containerforimg {
+  position: relative;
+  /* width: 50%; */
+  background: rgba(0, 0, 0, 0.89);
+}
+.drtype_img .containerforimg:hover .image {
+  opacity: 0.3;
+}
+.drtype_img .containerforimg:hover .middle {
+  opacity: 1;
+}
+/* 
+clinic section */
+
+/* end clinic section */
+/* start footer */
+.footer {
+  background: var(--custom-primary-color);
+  color: var(--custom-font-color);
+}
+.footer .footer-menu li {
+  list-style: none;
+  color: var(--custom-primary-color);
+  margin-right: 5px;
+  position: relative;
+}
+.footer .footer-menu li a {
+  text-decoration: none;
+  margin-left: 25px;
+  color: var(--custom-font-color);
+}
+.footer .footer-menu li a::before {
+  content: "\f101";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  left: 0;
+  margin-right: 5px;
+  position: absolute;
+  top: 3px;
+}
+.footer-bottom .copyright-text p {
+  margin-bottom: 0;
+}
+
+/* end footer */
+/* css for dr login page */
+.doctor_reg .content {
+  padding: 50px 0;
+}
+.doctor_reg .content .login-header h3 {
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+}
+.doctor_reg .content .login-header h3 a {
+  font-size: 0.95rem;
+  margin-top: 0.3rem;
+  float: right;
+}
+.doctor_reg .content .form-focus {
+  position: relative;
+  height: 50px;
+}
+.doctor_reg .content .form-focus .focus-label {
+  font-size: 15px;
+  font-weight: 400;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0, 22px, 0) scale(1);
+  -ms-transform: translate3d(0, 22px, 0) scale(1);
+  -o-transform: translate3d(0, 22px, 0) scale(1);
+  transform: translate3d(0, 22px, 0) scale(1);
+  transform-origin: left top;
+  transition: 240ms;
+  left: 12px;
+  top: -8px;
+  z-index: 1;
+  color: #b8b8b8;
+  margin-bottom: 0;
+}
+.doctor_reg .content .form-group .form-control:focus ~ .focus-label,
+.doctor_reg .content .form-group .form-control:valid ~ .focus-label {
+  opacity: 1;
+  font-weight: 400;
+  top: -20px;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.doctor_reg .content .form-control {
+  height: 50px;
+  padding: 21px 12px 6px;
+}
+.doctor_reg .content .account-content .login-right {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  padding: 25px;
+}
+.doctor_reg .content .account-content .login-right .alredy-acc {
+  padding: 5px;
+}
+.doctor_reg .content .account-content .login-right .alredy-acc a {
+  font-size: 0.85rem;
+
+  text-decoration: none;
+}
+.doctor_reg .content .account-content .login-right button:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* css for user registration form */
+
+/* css for user registration form */
+
+/* responsive layout css */
+
+@media only screen and (max-width: 768px) {
+  /*  start srch secion respnsive  */
+
+  .section_serch .search_input .form_srch {
+    display: block;
+    font-size: 1rem;
+  }
+  .section_serch .search_input .form_srch .location_area {
+    width: 90%;
+    /* display: block; */
+  }
+  .section_serch .search_input .form_srch .docsrch_area {
+    width: 90%;
+    margin-left: 0;
+  }
+  .section_serch .search_input .form_srch .srch-btn button {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  /*  end srch secion respnsive  */
+
+  /*  start docotr registratoion form responsive */
+  .doctor_reg .content .login-left {
+    display: none;
+  }
+  /*  end docotr registratoion form responsive */
+}

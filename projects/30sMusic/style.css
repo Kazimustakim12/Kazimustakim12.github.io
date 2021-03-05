@@ -1,0 +1,41 @@
+.musicControls {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.card {
+  box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+}
+.musicControls .play_btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.musicControls .play_btn:hover {
+  box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: black;
+}
+.musicControls .fas {
+  box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+}
+.musicControls .fa-backward,
+.musicControls .fa-forward {
+  color: black;
+}
+.musicControls .fas:hover {
+  color: gray;
+}

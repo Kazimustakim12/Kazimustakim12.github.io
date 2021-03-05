@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- end bootstrap css -->
+  <!-- start custom css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- end custom css -->
+  <!-- font wasome icon cdn -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <!-- font awsome cdn  -->
+
+  <!-- font family  -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+  <!-- font family  -->
+
+  <!-- slider -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- end for slideer -->
+
+  <!-- jquery cdn -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <!-- jquery cdn -->
+
+  <!--  custom admin css -->
+  <link rel="stylesheet" href="./css/admin.css">
+  <!-- custom js file  -->
+  <script src="./dr.js"></script>
+  <!-- custom js file  -->
+
+
+
+  <title>DR .Appoinment</title>
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="text-center sidebar-heading font-weight-bold p-1">City Care</div>
+      <hr>
+      <div class="list-group list-group-flush sidebar">
+        <div id='user_img' class="text-center image mt-4">
+          <img src="https://source.unsplash.com/random" alt="" style="width: 150px; height: 150px; border-radius: 50%;">
+          <p class="pt-2 font-weight-bold">Kazi Mustakim</p>
+        </div>
+
+
+        <!-- <div class="row">
+          <div class="list-group">
+
+            <a href="#" class=" active"> HOME </a>
+            <a href="#" class=""> PROFILE</a>
+            <a href="#" class="">MESSAGE</a>
+            <a href="#" class=" disabled">SETTING</a>
+          </div>
+        </div> -->
+
+        <div class="row">
+          <div class="list-group admin-Side-List mt-3 ">
+            <a class="list-group-item admin-Sidebar  active" id="list-home-list" href="dradminhome.html"><i
+                class="fas fa-tachometer-alt"></i> Home</a>
+            <a class="list-group-item admin-Sidebar " href="#list-profile" role="tab" aria-controls="profile"> <i
+                class="fas fa-user-circle"></i> Profile</a>
+            <a class="list-group-item admin-Sidebar " href="#list-messages" role="tab" aria-controls="messages"><i
+                class="fas fa-comment"></i> Messages</a>
+            <a class="list-group-item admin-Sidebar " href="#list-settings" role="tab" aria-controls="settings"><i
+                class="fas fa-user-cog"></i> Settings</a>
+
+          </div>
+        </div>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+    </div>
+    <!-- /sidebar-over - #wrapper -->
+    <!-- page content start -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn admin-humburger" id="menu-toggle"><i class="fas fa-bars"></i></button>
+      </nav>
+
+      <section class="content">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Total Patient</h5>
+                  <p class="card-text">4450</p>
+                  <div class="iconbackground"><i class="fas fa-hospital-user"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Today Patient</h5>
+                  <p class="card-text">15</p>
+                  <div class="iconbackground"><i class="fas fa-user-injured"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Appoinments</h5>
+                  <p class="card-text">40</p>
+                  <div class="iconbackground"><i class="fas fa-calendar-check"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+
+  <!-- custom js  -->
+  <script src="./js/dr.js"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

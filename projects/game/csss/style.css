@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+}
+.car {
+  width: 50px;
+  height: 70px;
+  background-color: transparent;
+  position: absolute;
+  left: 50px;
+  background-image: url("../newcar.png");
+  bottom: 120px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Enemy {
+  width: 50px;
+  height: 70px;
+  background-color: transparent;
+  position: absolute;
+  left: 50px;
+  background-image: url("../1.png");
+  bottom: 120px;
+  bottom: 120px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.hide {
+  display: none;
+}
+.carGame {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Road.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Line {
+  width: 10px;
+  height: 100px;
+  position: absolute;
+  margin-left: 195px;
+  background: white;
+}
+.startScreen {
+  position: absolute;
+  background-color: #ee5253;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  width: 50%;
+  cursor: pointer;
+  letter-spacing: 5;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: uppercase;
+  box-shadow: 0 5px 5px #777;
+}
+.scoreBoard {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  background: #48d268;
+  width: 300px;
+  text-align: center;
+  color: white;
+  height: 70px;
+  z-index: 10;
+  font-size: 1rem;
+  box-shadow: 0 5px 5px #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GameArea {
+  width: 400px;
+  height: 100vh;
+  background-color: #3d3d3d;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border-left: 5px dashed #f0ebeb;
+  border-right: 5px dashed #f0ebeb;
+}
+.gamepad {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 55px;
+  height: 100px;
+  opacity: 0.4;
+  visibility: hidden;
+}
+.gamepad button {
+  padding: 10px;
+}
+/* mobile device */
+@media only screen and (max-width: 600px) {
+  .GameArea {
+    width: 250px;
+    height: 100vh;
+  }
+  .startScreen {
+    font-size: 8px;
+    line-height: 15px;
+  }
+
+  .scoreBoard {
+    width: 150px;
+    font-size: 0.75rem;
+  }
+
+  .Line {
+    width: 7px;
+    height: 70px;
+    margin-left: 122px;
+  }
+
+  .Enemy {
+    width: 35px;
+    height: 50px;
+  }
+
+  .car {
+    width: 35px;
+    height: 50px;
+  }
+  .gamepad {
+    visibility: visible;
+  }
+}

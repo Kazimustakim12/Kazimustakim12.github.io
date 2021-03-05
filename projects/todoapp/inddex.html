@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>TODO application</title>
+	</head>
+	<body>
+
+        <div id="container">
+            <div class="controls">
+                <h1>MY TODO</h1>
+                <input type="text" id="input"><br><span id="span" style="color: red;"></span>
+                <button type="button" id="add">ADD TODO</button>
+                <button type="button" id="remove">REEMOVE DONE TODO</button>
+                <button type="button" id="removeall">REEMOVE ALL</button>
+            </div>
+
+            <ul id="list">
+                <li class="mycheck" ><input type="checkbox" id="check"><label> GO TO GYM</label></li>
+                <li class="mycheck" ><input type="checkbox" id="check" checked ><label> learn JAVASCRIPT</label></li>
+                <li class="mycheck" ><input type="checkbox" id="check" checked ><label> learn Ai</label></li>
+                <li class="mycheck" ><input type="checkbox" id="check" checked ><label> play game</label></li>
+            </ul>
+
+        </div>
+
+
+		<script src="todoapp.js"></script></script>
+	</body>
+</html>

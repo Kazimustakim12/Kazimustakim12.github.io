@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Staatliches", cursive;
+  /* background: blue; */
+}
+/* body {
+	top: 0;
+}*/
+main {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #cf7500;
+}
+
+.container {
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px;
+  background: black;
+  border-radius: 25px;
+}
+.container-head {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  justify-content: space-around;
+}
+.container-head h2 {
+  /* width: 50%; */
+  font-size: 2rem;
+  font-weight: 500;
+  margin-right: 10px;
+  color: #f0a500;
+}
+
+.container-head input {
+  color: #f4f4f4;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(211, 211, 221);
+
+  font-size: 1rem;
+}
+.container-head p span {
+  margin: 5px;
+}
+.container-head .button {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+/* .container-head input:focus {
+	transform: scale(1.5, 1.5);
+} */
+.container-body {
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.2 ease;
+  background-image: linear-gradient(
+      rgba(150, 150, 150, 0.719),
+      rgba(202, 190, 190, 0.5)
+    ),
+    url(./png/main/unknow.jpg);
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  color: black;
+}
+
+.container-body .image-icon img {
+  width: 150px;
+  /* filter: invert(1); */
+}
+.container-body .temp h4 {
+  width: 100%;
+  font-size: 30px;
+  color: #f0a500;
+  letter-spacing: 1px;
+}
+.container-body #con-city {
+  font-size: 25px;
+  color: #f0a500;
+  margin: 5px;
+}
+
+.container-body .cityvalue,
+.descripitionValue {
+  /* color: white; */
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: orange;
+  letter-spacing: 5px;
+  font-size: 2rem;
+}
+.alert {
+  color: red;
+  visibility: hidden;
+}
+.hide {
+  display: none;
+}
+/* 
+.bg-img{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('photographer.jpg'),
+		url(./png/taylor-van-riper-yQorCngxzwI-unsplash.jpg);
+
+} */
+svg.svg-inline--fa.fa-search-location.fa-w-16 {
+  font-size: 10px;
+}

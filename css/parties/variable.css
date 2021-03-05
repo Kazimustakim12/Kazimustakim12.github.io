@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  /* background: ; */
+}
+
+/*css variable */
+:root {
+  --logo-color: white;
+  --hover-color: #1e1f26;
+  --svg-color: #fff;
+  --button-color: var(--gradient-coor);
+  --bg-text: #ff9318;
+  /* --primary-color: var(--logo-color); */
+  --title-color: #ff8800;
+  --text-color: #777777;
+  --border-color: #201f1f17;
+  --card-color: rgba(248, 252, 253, 0.973);
+  --gradient-color: linear-gradient(90deg, #ff8902 0%, #ff8800 100%);
+  --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+  --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  --card-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  --text-shadow: -1px -1px 3px #ff8800, 2px 2px 4px rgb(242, 146, 34);
+  /*	--bg-color: linear-gradient(90deg, rgba(#1579c5) 0%, #03508b 100%);*/
+  --bg-color: linear-gradient(
+    -82deg,
+    rgba(255, 156, 42, 1) 35%,
+    /* rgba(255, 144, 16, 1) 70%, */ rgba(255, 136, 0, 1) 100%
+  );
+  /*font family variable*/
+  --roboto: "roboto";
+  --dark-bg: rgba(255, 156, 42, 1);
+}
+
+[data-theme="dark"] {
+  background: var(--bg-color);
+  --hover-color: var(--logo-color);
+  --card-color: rgba(255, 255, 255, 0.11);
+  --bg-text: #1e1f26;
+  --logo-color: #ff8800;
+  --primary-color: #ffff;
+  --title-color: var(--logo-color);
+  --button-color: var(--logo-color);
+  --text-color: white;
+  --border-color: #201f1f17;
+  --svg-color: #1e1f26;
+  --gradient-color: linear-gradient(90deg, #1e1f26 0%, #1e1f26 100%);
+  --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+  --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  --card-shadow: 0px 10px 30px rgb(252, 136, 0);
+  /*	--bg-color: linear-gradient(90deg, rgba(#1579c5) 0%, #03508b 100%);*/
+  --bg-color: linear-gradient(-82deg, #1e1f26 35%, #1e1f26 100%);
+  --text-shadow: -1px -1px 3px #373737, 2px 2px 4px #1a1a1a;
+  /*font family variable*/
+  --roboto: "roboto";
+  --dark-bg: #1e1f26;
+}

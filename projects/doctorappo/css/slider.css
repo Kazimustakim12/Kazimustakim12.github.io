@@ -1,0 +1,98 @@
+
+
+.wrapper {
+  width: 100%;
+}
+.carousel {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 30px;
+}
+.carousel .card {
+  color: #fff;
+  margin: 20px 0;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
+
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.carousel .card p {
+  color: rgb(129, 129, 125);
+  font-size: small;
+}
+/* .carousel .card h5 {
+  color: black;
+  font-family: var(--custom-font-family);
+} */
+.carousel .card .card-body {
+  color: black;
+}
+.spcl .spcl-list{
+  position: relative;
+  height: 150px;
+  box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  background: #fff;
+}
+
+.spcl .spcl-list{
+  position: relative;
+
+}
+.spcl .spcl-list .img img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.spcl .spcl-list .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.spcl .spcl-list:hover .img img {
+  opacity: 0.3;
+}
+
+.spcl .spcl-list:hover .middle {
+  opacity: 1;
+}
+.spcl .spcl-list p{
+  position: absolute;
+  top: -13px;
+  left: -60px;
+}
+/* .spcl .spcl-list p:nth-child(4), */
+
+.owl-dots {
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 150%px;
+  border: 2px solid #0072bc !important;
+  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); */
+  transition: all 0.3s ease;
+}
+
+.owl-dot:focus{
+  box-shadow: none;
+  outline: none;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: var(--custom-primary-color) !important;
+}

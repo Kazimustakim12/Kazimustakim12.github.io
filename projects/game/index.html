@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<!-- custom css file -->
+<link rel="stylesheet" href="./csss/style.css">
+
+<body>
+    <div class="carGame">
+        <div class="scoreBoard">
+
+        </div>
+        <div class="startScreen">
+            <p>
+                Click to Start Game <br>
+                Arrow Key To Move <br>
+                If You Hit Another Car, Game will be Over
+            </p>
+
+        </div>
+        <div class="GameArea "></div>
+        <div class="gamepad">
+            <button onmousedown="moveup()" onmouseup="clearmove()">UP</button>
+            <br>
+            <br>
+            <button onmousedown="moveleft()" onmouseup="clearmove()">LEFT</button>
+            <button onmousedown="moveright()" onmouseup="clearmove()">RIGHT</button>
+            <br>
+            <br>
+            <button onmousedown="movedown()" onmouseup="clearmove()">DOWN</button>
+        </div>
+
+    </div>
+
+    <!-- custom js file -->
+    <script src="./js/script.js"></script>
+</body>
+
+
+</html>
