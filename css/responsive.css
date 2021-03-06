@@ -117,9 +117,7 @@
     width: 20rem;
     margin: 5%;
   }
-  .site-main .project-area .button-group button + button {
-    padding-left: 0;
-  }
+
   /* footer */
   .footer .social a {
     font-size: 25px;

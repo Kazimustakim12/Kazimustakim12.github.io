@@ -59,17 +59,18 @@
 .text .orange {
   color: var(--dark-bg);
   font-family: "Bangers", cursive;
-  /* padding: 5px; */
+  padding: 5px;
+  margin-top: 3px;
 }
 @media only screen and (max-width: 792px) {
   .text li {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .text {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     border-bottom: 0;
   }

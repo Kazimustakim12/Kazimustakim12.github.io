@@ -363,14 +363,20 @@ svg.progress {
 }
 .site-main .project-area .button-group button {
   background: transparent;
-  color: var(--text-color);
+  background: rgba(204, 202, 202, 0.329);
+  padding: 12px;
   border: none;
-  font: normal 500 16px/130px;
+  color: var(--text-color);
+  border-radius: 15px;
+  text-align: center;
+  /* font: normal 500 16px/130px; */
   text-transform: uppercase;
 }
-
-.site-main .project-area .button-group button + button {
-  padding-left: 3rem;
+.site-main .project-area .button-group button.active {
+  background: var(--title-color);
+  border: none;
+  text-align: center;
+  color: white;
 }
 
 .site-main .project-area .grid .our-project > .title h4 {
@@ -521,23 +527,6 @@ footer .footer {
   top: 0;
   transition: 0.4s;
 }
-
-/* .slider:before {
-  background-color: #fff;
-  bottom: 4px;
-  content: "";
-  height: 26px;
-  left: 4px;
-  position: absolute;
-  transition: 0.4s;
-  width: 26px;
-} */
-
-/* input:checked + .slider {
-  background-color: #66bb6a;
-  
-
-} */
 
 input:checked + .slider:before {
   transform: translateX(26px);
