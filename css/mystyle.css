@@ -371,6 +371,8 @@ svg.progress {
   text-align: center;
   /* font: normal 500 16px/130px; */
   text-transform: uppercase;
+  margin: 5px;
+  cursor: pointer;
 }
 .site-main .project-area .button-group button.active {
   background: var(--title-color);
