@@ -1,6 +1,5 @@
 /* if the viewport is equal to 340px or less than that */
 @media only screen and (max-width: 340px) {
-  
   .headerarea .mainmenu .navbar,
   .headerarea .mainmenu .navbar .navbar-brand,
   .site-main .subscribe-area .subscribe .sub-title,
@@ -11,7 +10,7 @@
     padding: 2%;
     margin: 0%;
   }
-   .headerarea .mainmenu .navbar .navbar-brand {
+  .headerarea .mainmenu .navbar .navbar-brand {
     padding: 0 2rem 0 2rem;
   }
   .site-main .site-banner .site-title h1 {
@@ -28,9 +27,9 @@
   .footer .copyrights h5 {
     font-size: 12px;
   }
-  .site-main .site-banner .site-title h3{
-    padding: 100px; }
-  
+  .site-main .site-banner .site-title h3 {
+    padding: 100px;
+  }
 }
 
 /* if the viewport is equal to 340px or less than that */
@@ -42,7 +41,7 @@
   .headerarea .mainmenu .navbar .navbar-brand {
     padding: 0 2rem 0 2rem;
   }
-  .headerarea .mainmenu .nav-item .nav-link{
+  .headerarea .mainmenu .nav-item .nav-link {
     /* padding-bottom: 0.2rem;
     padding: 0; */
   }
@@ -52,10 +51,10 @@
   .headerarea .navbar .logo strong {
     font-size: 2rem;
   }
- 
+
   /* banner */
-  
- /* .site-banner .banner-img{
+
+  /* .site-banner .banner-img{
    position: absolute;
    z-index: 4; } */
   /* sitemain re */
@@ -151,11 +150,22 @@
   .services-area .service-list {
     width: 100%;
   }
+  /* preloader */
+  .text li {
+    font-size: 1rem;
+  }
+  .text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    list-style: none;
+    border-bottom: 0;
+  }
 }
 
 /* if the viewport is equal to 1910px or less than that */
 @media only screen and (max-width: 1910px) {
-  
   .headerarea .mainmenu .navbar {
     padding: 1rem 1rem 0rem;
   }

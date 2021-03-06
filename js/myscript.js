@@ -142,25 +142,19 @@ $(document).ready(function () {
 
   navbarFixed();
 });
-// $(".owl-carousel").owlCarousel({
-//   loop: true,
-//   margin: 10,
-//   nav: true,
-//   navText: [
-//     "<i class='fa fa-caret-left'></i>",
-//     "<i class='fa fa-caret-right'></i>",
-//   ],
-//   autoplay: true,
-//   autoplayHoverPause: true,
-//   responsive: {
-//     0: {
-//       items: 1,
-//     },
-//     600: {
-//       items: 3,
-//     },
-//     1000: {
-//       items: 5,
-//     },
-//   },
-// });
+
+// preloader
+// preloader
+$("#status").fadeOut(); // will first fade out the loading animation
+$("#preloader").delay(3050).fadeOut("slow"); // will fade out the white DIV that covers the website.
+$("body").delay(3050).css({
+  overflow: "visible",
+});
+$(function () {
+  var text = $(".text");
+
+  text.removeClass("hidden").delay(3050).fadeIn("slow");
+  setTimeout(function () {
+    text.addClass("hidden").delay(2052).fadeOut("slow");
+  }, 2000);
+});
