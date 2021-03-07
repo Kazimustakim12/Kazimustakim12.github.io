@@ -336,7 +336,7 @@ svg.progress {
 /* end about progrsss animatio */
 .site-main .about-area {
   padding: 8rem 5rem;
-  background: var(--bug-color);
+  /* background: var(--bug-color); */
 }
 .site-main .about-area .about-title h2 > span {
   display: block;
