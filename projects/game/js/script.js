@@ -177,7 +177,7 @@ function moveup() {
 
 function movedown() {
   buttonMove = true;
-  Player.y += 1;
+  Player.y += 50;
 }
 
 function moveleft() {
