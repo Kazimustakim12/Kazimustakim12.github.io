@@ -336,7 +336,7 @@ svg.progress {
 /* end about progrsss animatio */
 .site-main .about-area {
   padding: 8rem 5rem;
-  /* background: var(--bg-color); */
+  background: var(--bug-color);
 }
 .site-main .about-area .about-title h2 > span {
   display: block;
@@ -394,7 +394,7 @@ svg.progress {
 }
 .site-main .project-area .button-group button:hover,
 .site-main .project-area .button-group button:focus {
-  color: var(--title-color);
+  /* color: var(--title-color); */
   transform: scale(0.85);
 }
 /* End Project Area */

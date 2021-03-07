@@ -34,6 +34,7 @@ body {
   /*font family variable*/
   --roboto: "roboto";
   --dark-bg: rgba(255, 156, 42, 1);
+  --bug-color: white;
 }
 
 [data-theme="dark"] {
@@ -58,4 +59,5 @@ body {
   /*font family variable*/
   --roboto: "roboto";
   --dark-bg: #1e1f26;
+  --bug-color: var(--bg-color);
 }
