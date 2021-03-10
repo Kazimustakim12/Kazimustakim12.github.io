@@ -22,13 +22,11 @@ main {
 }
 .container {
   width: 100%;
-
   display: flex;
   margin: 20px 0 0 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   padding: 25px;
   background: black;
   border-radius: 25px;
@@ -38,7 +36,9 @@ main {
   text-align: start;
   flex-direction: column;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  /* justify-content: space-around; */
+  align-items: center;
 }
 .container-head h2 {
   /* width: 50%; */
