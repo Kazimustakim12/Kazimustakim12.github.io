@@ -30,7 +30,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px;
+  padding: 10px;
   background: black;
   border-radius: 25px;
 }
